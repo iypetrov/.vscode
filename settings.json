@@ -1,0 +1,235 @@
+{
+  // common
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[templ]": {
+    "editor.defaultFormatter": "a-h.templ"
+  },
+  "breadcrumbs.enabled": false,
+  "diffEditor.renderIndicators": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSurroundingLines": 10,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.renderLineHighlight": "none",
+  "editor.roundedSelection": false,
+  "editor.scrollbar.horizontal": "hidden",
+
+  "editor.scrollbar.vertical": "hidden",
+  "editor.tabSize": 4,
+  "emmet.includeLanguages": {
+    "templ": "html"
+  },
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "telemetry.telemetryLevel": "off",
+  "tailwindCSS.includeLanguages": {
+    "templ": "html"
+
+  },
+
+  "window.closeWhenEmpty": true,
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "default",
+  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.showTabs": "none",
+  "workbench.enableExperiments": false,
+
+  "workbench.layoutControl.enabled": false,
+  // vim 
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "r",
+        "n"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+
+    },
+    {
+      "before": [
+        "g",
+        "e"
+      ],
+      "commands": [
+        "toggleVim",
+        "go-to-next-error.nextInFiles.warning",
+        "toggleVim",
+        "extension.vim_escape"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    // -- telescope
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+
+        "f",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.showAllEditorsByMostRecentlyUsed"
+      ]
+    },
+    {
+
+      "before": [
+        "<leader>",
+        "f",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.findInFiles"
+      ]
+    },
+    // --panes
+
+    {
+      "before": [
+
+        "<leader>",
+        "v"
+      ],
+      "commands": [
+        ":vsplit"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "commands": [
+        ":split"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.focusLeftGroup"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+
+      "commands": [
+        "workbench.action.focusBelowGroup"
+      ]
+    },
+    {
+      "before": [
+        "l<leader>",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.focusAboveGroup"
+      ]
+
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+
+        "workbench.action.focusRightGroup"
+      ]
+    },
+    // -- harpoon
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ]
+
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>"
+      ],
+
+      "commands": [
+        "bookmarks.listFromAllFiles"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "commands": [
+        "bookmarks.jumpToPrevious"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "commands": [
+        "bookmarks.jumpToNext"
+      ]
+    },
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "makefile.configureOnOpen": true,
+  "tabnine.experimentalAutoImports": true,
+}
+
