@@ -10,26 +10,23 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+5",
+		"key": "ctrl+f",
 		"command": "explorer.newFile",
 		"when": "filesExplorerFocus && !inputFocus"
-
 	},
 	{
-		"key": "r",
+		"key": "ctrl+r",
 		"command": "renameFile",
 		"when": "filesExplorerFocus && !inputFocus"
-
 	},
 	{
-		"key": "d",
+		"key": "ctrl+d",
 		"command": "explorer.newFolder",
 		"when": "explorerViewletFocus"
 	},
 	{
-		"key": "shift+d",
+		"key": "ctrl+shift+d",
 		"command": "deleteFile",
 		"when": "filesExplorerFocus && !inputFocus"
-	},
+	}
 ]
-

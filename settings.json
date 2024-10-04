@@ -1,60 +1,4 @@
 {
-  // common
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[templ]": {
-    "editor.defaultFormatter": "a-h.templ"
-  },
-  "breadcrumbs.enabled": false,
-  "diffEditor.renderIndicators": false,
-  "diffEditor.renderSideBySide": false,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.autoClosingBrackets": "always",
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSurroundingLines": 10,
-  "editor.fontSize": 16,
-  "editor.formatOnSave": true,
-  "editor.folding": false,
-  "editor.glyphMargin": true,
-  "editor.guides.indentation": true,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.insertSpaces": false,
-  "editor.lineNumbers": "relative",
-  "editor.matchBrackets": "always",
-  "editor.minimap.enabled": false,
-  "editor.overviewRulerBorder": false,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
-  },
-  "editor.renderLineHighlight": "none",
-  "editor.roundedSelection": false,
-  "editor.scrollbar.horizontal": "hidden",
-
-  "editor.scrollbar.vertical": "hidden",
-  "editor.tabSize": 4,
-  "emmet.includeLanguages": {
-    "templ": "html"
-  },
-  "explorer.compactFolders": false,
-  "files.autoSave": "afterDelay",
-  "telemetry.telemetryLevel": "off",
-  "tailwindCSS.includeLanguages": {
-    "templ": "html"
-
-  },
-
-  "window.closeWhenEmpty": true,
-  "window.commandCenter": false,
-  "workbench.activityBar.location": "default",
-  "workbench.colorTheme": "Vim Dark Hard",
-  "workbench.editor.editorActionsLocation": "hidden",
-  "workbench.editor.showTabs": "none",
-  "workbench.enableExperiments": false,
-
-  "workbench.layoutControl.enabled": false,
   // vim 
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -71,7 +15,6 @@
       "commands": [
         "editor.action.rename"
       ]
-
     },
     {
       "before": [
@@ -108,7 +51,6 @@
     {
       "before": [
         "<leader>",
-
         "f",
         "r"
       ],
@@ -117,7 +59,6 @@
       ]
     },
     {
-
       "before": [
         "<leader>",
         "f",
@@ -128,10 +69,8 @@
       ]
     },
     // --panes
-
     {
       "before": [
-
         "<leader>",
         "v"
       ],
@@ -162,7 +101,6 @@
         "<leader>",
         "j"
       ],
-
       "commands": [
         "workbench.action.focusBelowGroup"
       ]
@@ -175,7 +113,6 @@
       "commands": [
         "workbench.action.focusAboveGroup"
       ]
-
     },
     {
       "before": [
@@ -183,7 +120,6 @@
         "l"
       ],
       "commands": [
-
         "workbench.action.focusRightGroup"
       ]
     },
@@ -196,22 +132,19 @@
       "commands": [
         "bookmarks.toggle"
       ]
-
     },
     {
       "before": [
         "<leader>",
         "<leader>"
       ],
-
       "commands": [
         "bookmarks.listFromAllFiles"
       ]
     },
     {
       "before": [
-        "<leader>",
-        "p"
+        "<C-p>"
       ],
       "commands": [
         "bookmarks.jumpToPrevious"
@@ -219,17 +152,66 @@
     },
     {
       "before": [
-        "<leader>",
-        "n"
+        "<C-n>"
       ],
       "commands": [
         "bookmarks.jumpToNext"
       ]
     },
   ],
+  // common
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[templ]": {
+    "editor.defaultFormatter": "a-h.templ"
+  },
+  "breadcrumbs.enabled": true,
+  "diffEditor.renderIndicators": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSurroundingLines": 10,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.folding": false,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.renderLineHighlight": "none",
+  "editor.roundedSelection": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.tabSize": 4,
+  "emmet.includeLanguages": {
+    "templ": "html"
+  },
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "telemetry.telemetryLevel": "off",
+  "tailwindCSS.includeLanguages": {
+    "templ": "html"
+  },
+  "window.closeWhenEmpty": true,
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "default",
+  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.showTabs": "none",
+  "workbench.enableExperiments": false,
+  "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "makefile.configureOnOpen": true,
-  "tabnine.experimentalAutoImports": true,
 }
-
