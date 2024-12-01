@@ -6,6 +6,10 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
@@ -199,14 +203,26 @@
   },
   "explorer.compactFolders": false,
   "files.autoSave": "afterDelay",
+  "[go]": {
+    "editor.formatOnSave": true
+  },
+  "gopls": {
+    "build.buildFlags": [
+      "-tags=local"
+    ],
+    "usePlaceholders": true,
+    "completeUnimported": true,
+    "organizeImports": true
+  },
   "telemetry.telemetryLevel": "off",
   "tailwindCSS.includeLanguages": {
     "templ": "html"
   },
+  "java.jdt.ls.lombokSupport.enabled": true,
   "window.closeWhenEmpty": true,
   "window.commandCenter": false,
   "workbench.activityBar.location": "default",
-  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.colorTheme": "Cobalt2",
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabs": "none",
   "workbench.enableExperiments": false,
@@ -214,4 +230,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "makefile.configureOnOpen": true,
+  "git.openRepositoryInParentFolders": "never",
 }
