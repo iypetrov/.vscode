@@ -197,22 +197,18 @@
   "editor.roundedSelection": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.suggest.preview": true,
   "editor.tabSize": 4,
   "emmet.includeLanguages": {
     "templ": "html"
   },
   "explorer.compactFolders": false,
-  "files.autoSave": "afterDelay",
-  "[go]": {
-    "editor.formatOnSave": true
-  },
   "gopls": {
     "build.buildFlags": [
       "-tags=local"
     ],
     "usePlaceholders": true,
-    "completeUnimported": true,
-    "organizeImports": true
+    "completeUnimported": true
   },
   "telemetry.telemetryLevel": "off",
   "tailwindCSS.includeLanguages": {
