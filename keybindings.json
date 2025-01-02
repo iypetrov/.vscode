@@ -2,11 +2,12 @@
 [
 	{
 		"key": "ctrl+t",
-		"command": "workbench.action.toggleSidebarVisibility"
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "filesExplorerFocus"
 	},
 	{
 		"key": "ctrl+t",
-		"command": "workbench.files.action.focusFilesExplorer",
+        "command": "workbench.files.action.focusFilesExplorer",
 		"when": "editorTextFocus"
 	},
 	{

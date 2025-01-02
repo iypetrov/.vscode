@@ -21,6 +21,18 @@
         },
         {
             "before": [
+                "[",
+                "["
+            ],
+            "commands": [
+                "toggleVim",
+                "go-to-next-error.prevInFiles.warning",
+                "toggleVim",
+                "extension.vim_escape"
+            ]
+        },
+        {
+            "before": [
                 "r",
                 "n"
             ],
@@ -30,8 +42,8 @@
         },
         {
             "before": [
-                "g",
-                "e"
+                "]",
+                "]"
             ],
             "commands": [
                 "toggleVim",
