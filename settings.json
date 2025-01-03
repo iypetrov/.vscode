@@ -33,15 +33,6 @@
         },
         {
             "before": [
-                "r",
-                "n"
-            ],
-            "commands": [
-                "editor.action.rename"
-            ]
-        },
-        {
-            "before": [
                 "]",
                 "]"
             ],
@@ -54,11 +45,29 @@
         },
         {
             "before": [
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
                 "g",
                 "i"
             ],
             "commands": [
                 "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "go.toggle.test.file"
             ]
         },
         // -- telescope
@@ -226,6 +235,8 @@
         "templ": "html"
     },
     "explorer.compactFolders": false,
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
     "gopls": {
         "build.buildFlags": [
             "-tags=local"
@@ -274,6 +285,4 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "go.useLanguageServer": true,
-    "go.toolsManagement.autoUpdate": true,
 }
